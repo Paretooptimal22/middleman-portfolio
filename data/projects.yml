@@ -1,5 +1,6 @@
 - name: PRM (Personal Relationship Management)
-  description: App to help manage your personal connections/relationships
+  description: "App to help manage your personal connections/relationships"
+  detail: "Team: 4 developers | Timeframe: 2 weeks | HTML, CSS, JavaScript, OpenAi"
   image: projects/placeholder.png
   url: https://www.theprm.tech
   github: https://github.com/jpblicer/PRM
