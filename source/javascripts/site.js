@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const keywords = ['Kevin', 'Tokyo', "Le Wagon's Web Development Bootcamp", 'front-end opportunities in Japan'];
+  const keywords = ['Kevin', 'web developer', 'Tokyo', "Le Wagon's Web Development Bootcamp", 'front-end opportunities in Japan'];
 
   function highlightKeywords() {
     const aboutMeElement = document.getElementById('about');

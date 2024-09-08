@@ -1,0 +1,24 @@
+.image-container {
+  position: relative;
+  display: inline-block; /* Ensures the container wraps tightly around the image */
+}
+
+.main-image {
+  display: block;
+  max-width: 100%; /* Ensures the image is responsive */
+  height: auto;
+  border-radius: 8px; /* Optional: rounded corners */
+  z-index: 2; /* Keeps the image on top of the background frame */
+  position: relative; /* Ensures the image is positioned above the background */
+}
+
+.background-frame {
+  position: absolute;
+  top: 10px;   /* Adjust to set the offset for the frame */
+  left: 10px;  /* Adjust to set the offset for the frame */
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #ff0080, #7928ca); /* Gradient background */
+  z-index: 1; /* Places the frame behind the image */
+  border-radius: 8px; /* Optional: rounded corners to match the image */
+}

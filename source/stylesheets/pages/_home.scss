@@ -7,10 +7,19 @@ body {
 .title-main {
   // color: #2C3639;
   // color: #F1F0E8;
-  color: $dark-gray;
-
+  // color: $dark-gray;
+  background: linear-gradient(135deg, deepskyblue, turquoise, aquamarine); /* Define the gradient colors */
+  -webkit-background-clip: text; /* Clipping the background to the text */
+  background-clip: text; /* Clipping the background to the text */
+  color: transparent; /* Make the actual text transparent, so the background shows through */
+  line-height: 1.6;
+  margin-bottom: 0;
 }
 
 .container-page {
   width: 75%;
+}
+
+h3 {
+  line-height: 1.6;
 }
